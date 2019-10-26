@@ -34,10 +34,6 @@ def boyer_moore():
         print('compared times is', str(count))
 
 
-def get_last_index(parameter_list):
-    pass
-
-
 if __name__ == '__main__':
     if not boyer_moore():
         print('tar is not in src')
